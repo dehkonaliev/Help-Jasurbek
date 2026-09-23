@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Askarov Jasurbek | Graphic Designer</title>
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.css">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="static/images/favicon-72x72.png">
+
+<!-- Main css -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="about">
+     <div class="overlay"></div>
+     <div id="particles-js"></div>
+     <div class="container">
+          <div class="row">
+               <div class="lang-box">
+                    <h4 style="font-weight: bold;">Select Language / Tilni tanlang</h4>
+                    <a href="#en"><img class="flag" src="static/images/en_flag.png" alt="English"></a>
+                    <a href="#uz"><img class="flag" src="static/images/uz_flag.png" alt="Uzbek"></a>
+                    <a href="#ru"><img class="flag" src="static/images/ru_flag.jpg" alt="Russian"></a>
+               </div>               
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+                    <a href="static/images/profile_img.jpg" class="image-popup">
+                         <img src="static/images/profile_img.jpg" class="profile-img" alt="Gallery Image">
+                    </a>
+                    {% for image in other %}
+                    <a href="{{ image.pro_image.url }}" class="image-popup"></a>
+                    {% endfor %}
+
+                    <h1 id="en">Askharov Jasurbek</h1>
+                    <h3><i class="fa-solid fa-circle-user"></i> About me</h3>
+                    <p style="margin-bottom: 40px;">Hello! I'm a 20-year-old graphic and fabric designer with a passion for creativity and design. 
+                         Born on Semptember, 2004, I've spent the past year diving into the world of design, blending my skills in both graphic design 
+                         and fabric creation. I'm also an avid reader of scientific books and journals, always eager to expand my knowledge. 
+                         Additionally, I'm a fan of coding and website building, constantly looking for new ways to learn and grow in both design 
+                         and tech.</p>
+                    <a href="static/images/_OceanofPDF.com_Bright_-_Pimwana_Duanwad.pdf" download class="btn-download" blank="true">
+                         <i class="fa-solid fa-file-pdf"></i> Download
+                    </a>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-briefcase"></i> Work experience</h3>
+                    <span>February 2023 - Present</span>
+                    <p>NT Holding Home Textile, Namangan | <strong>Graphic & Fabric Designer</strong></p>
+                    <ul style="color: white;">
+                         <li><p>Designed high-quality textile patterns and digital designs.</p></li>
+                         <li><p>Worked with Photoshop & Corel Draw to create innovative graphics.</p></li>
+                         <li><p>Collaborated with teams to develop new home textile designs.</p></li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    <span>2023 - 2025</span>
+                    <p>Turan International Univercity, Namangan</p>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12 hs-skills">	
+                    <h3><i class="fa-solid fa-hourglass-start"></i> Skills</h3>
+                    <h4 style="font-weight: bold; font-size: 20px; letter-spacing: 0;">Soft Skills</h4>
+                    <ul>
+                         <li>Marketing Skills</li>
+                         <li>Communication</li>
+                         <li>Teamwork</li>
+                    </ul>
+                    <h4 style="font-weight: bold; font-size: 20px; letter-spacing: 0;">Hard Skills</h4>
+                    <ul>
+                         <li><strong>Graphic Design:</strong> Adobe Photoshop (Mockups, Arts), CorelDRAW</li>
+                         <li><strong>Fabric Design:</strong> Patterns, Textures, Textile Prints</li>
+                         <li><strong>Python Development:</strong> Web (Django), Telegram Bot</li>
+                         <li><strong>Web Development:</strong> HTML, CSS</li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-brands fa-slack"></i> Tools and Technologies <sup><span>Which I use</span></sup></h3>
+                    <h4 class="title">
+                         <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="white" /></svg>
+                       Designing Softwares</h4>
+                    <div class="skill-box">
+                         <div class="skill">
+                              <img src="static/images/photoshop.png" alt="">
+                              <p>Photoshop</p>
+                         </div>
+                         <div class="skill">
+                              <img src="static/images/corel-draw.png" alt="">
+                              <p>Corel Draw</p>
+                         </div>
+                    </div>
+                    <div class="mygap"></div>
+                    <h4 class="title"><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="white" /></svg>
+                         Programming</h4>
+                    <div class="skill-box">
+                         <div class="skill">
+                              <img src="static/images/python.png" alt="">
+                              <p>Python</p>
+                         </div>
+                         <div class="skill">
+                              <img src="static/images/html.png" alt="">
+                              <p>HTML</p>
+                         </div>
+                         <div class="skill">
+                              <img src="static/images/css.png" alt="">
+                              <p>CSS</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-earth-asia"></i> Languages</h3>
+                    <ul style="color: white;list-style: none;" class="language-list">
+                         <li><p><i class="fa-solid fa-flag"></i> <strong>Uzbek</strong> - Native</p></li>
+                         <li><p><i class="fa-solid fa-language"></i> <strong>Russian</strong></em></p></li>
+                         <li><p><i class="fa-solid fa-language"></i> <strong>English</strong> - Fluent (A1+) | <em>Still learning...</em></p></li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-regular fa-lightbulb"></i> Hobbies</h3>
+                    <p><strong>I have a deep passion for science, technology, and lifelong learning. In my free time, I enjoy:</strong></p>
+                    <ul style="color: white;">
+                         <li><p>Reading scientific books (biology, physics, chemistry)</p></li>
+                         <li><p>Watching scientific movies</p></li>
+                         <li><p>Following information news (AI revolution, Coding, Technologies, ...)</p></li>
+                         <li><p>Space exploration & Astronomy</p></li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-address-book"></i> Contact</h3>
+                    <ul style="color: white; list-style: none;">
+                         <li><h4><a href="https://t.me/hhxh29" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a></h4></li>
+                         <li><p><i class="fa-solid fa-envelope"></i> askharov2002@gmail.com</p></li>
+                         <li><p class="call"><i class="fa-solid fa-phone fa-shake"></i>  +998 94 981 2939 </p></li>
+                         <li><p><i class="fa-solid fa-location-dot"></i> S.Rakhimov Street 71, Isvahon, Namangan, Uzbekistan </p></li>
+                    </ul>
+               </div>
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+                    <h1 id="uz">Asqarov Jasurbek</h1>
+                    <h3><i class="fa-solid fa-circle-user"></i> Men Haqimda</h3>
+                    <p style="margin-bottom: 40px;">Assalomu alaykum! Men grafik va fabric dizayner sifatida ish olib boraman. 
+                         2004-yil sentyabr oyining 29-sanasida Namangan viloyati To'raqo'rg'on tumanida 
+                         tug'ulganman, O'tgan 2 yil davomida Garfik dizayn va Textile dizaynlari olamiga chuqur kirib bordim. 
+                         Shuningdek, dasturlashning bir necha sohalariga qizishim bor, doimiy ravishda yangi texnologiyalarni va dizaynlarga creativlik va 
+                         zamonaviylik qo'shish uchun yangiliklarni o'rganib boraman.</p>
+                    <a href="static/images/_OceanofPDF.com_Bright_-_Pimwana_Duanwad.pdf/" download class="btn-download" blank="true">
+                         <i class="fa-solid fa-file-pdf"></i> Yuklash
+                    </a>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-briefcase"></i> Ish tajribasi</h3>
+                    <span>February 2023 - va Xozir ham</span>
+                    <p>NT Holding Home Textile, Namangan | <strong>Grafik va mato dizayneri</strong></p>
+                    <ul style="color: white;">
+                         <li><p>Yuqori sifatli tekstile dizaynlari va chizmalar</p></li>
+                         <li><p>Photoshop va Corel Draw dasturlari bilan real va zamonaviy grafikalar yaratgan</p></li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Ta'limi</h3>
+                    <span>2023 - 2025</span>
+                    <p>Turan Xalqaro Univercity</p>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12 hs-skills">	
+                    <h3><i class="fa-solid fa-hourglass-start"></i> Ko'nikmalar</h3>
+                    <h4 style="font-weight: bold; font-size: 20px; letter-spacing: 0;">Shaxsiy ko'nikmalar</h4>
+                    <ul>
+                         <li>Marketing qobiliyati</li>
+                         <li>Muloqot qilish</li>
+                         <li>Jamoada ishlash</li>
+                    </ul>
+                    <h4 style="font-weight: bold; font-size: 20px; letter-spacing: 0;">Texnik ko'nikmalar</h4>
+                    <ul>
+                         <li><strong>Graphic Design:</strong> Adobe Photoshop (Mockups, Arts), CorelDRAW</li>
+                         <li><strong>Fabric Design:</strong> Patterns, Textures, Textile Prints</li>
+                         <li><strong>Python Development:</strong> Web (Django), Telegram Bot</li>
+                         <li><strong>Web Development:</strong> HTML, CSS</li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-brands fa-slack"></i> Dasturlar va texnologiyalar <sup><span>Foydalanadiganlarim</span></sup></h3>
+                    <h4 class="title">
+                         <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="white" /></svg>Dasturiy ta'minotni loyihalash</h4>
+                    <div class="skill-box">
+                         <div class="skill">
+                              <img src="static/images/photoshop.png" alt="">
+                              <p>Photoshop</p>
+                         </div>
+                         <div class="skill">
+                              <img src="static/images/corel-draw.png" alt="">
+                              <p>Corel Draw</p>
+                         </div>
+                    </div>
+                    <div class="mygap"></div>
+                    <h4 class="title"><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="white" /></svg>
+                        Dasturlash</h4>
+                    <div class="skill-box">
+                         <div class="skill">
+                              <img src="static/images/python.png" alt="">
+                              <p>Python</p>
+                         </div>
+                         <div class="skill">
+                              <img src="static/images/html.png" alt="">
+                              <p>HTML</p>
+                         </div>
+                         <div class="skill">
+                              <img src="static/images/css.png" alt="">
+                              <p>CSS</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-earth-asia"></i> Tillar</h3>
+                    <ul style="color: white;list-style: none;" class="language-list">
+                         <li><p><i class="fa-solid fa-flag"></i> <strong>O'zbek</strong> - Ona tili</p></li>
+                         <li><p><i class="fa-solid fa-language"></i> <strong>Russ Tili</strong> - Erkin </em></p></li>
+                         <li><p><i class="fa-solid fa-language"></i> <strong>Ingliz</strong> - Erkin (A1+) | <em>O'rganish davom etmoqdaman...</em></p></li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-regular fa-lightbulb"></i> Hobbylari</h3>
+                    <p><strong>Mening Ilmiy kashfiyotlar va texnologiyalarga bo'lgan qiziqishishim juda  katta bo'lib bo'sh vaqtlarimda ularni o'rganishdan zavq olaman.</strong></p>
+                    <ul style="color: white;">
+                         <li><p>Ilmiy kitoblar o'qish (biologiya, fizika, kimyo)</p></li>
+                         <li><p>Ilmiy va Ilmiy-fantastik filmlar tomosha qilish</p></li>
+                         <li><p>Informatsion yangiliklarni kuzatib borish (AI revolutsiyasi, Dasturlash, Texnologiyalar, ...)</p></li>
+                         <li><p>Fazoviy tadqiqotlar & Astronomiya</p></li>
+                    </ul>
+               </div>
+               <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                    <h3><i class="fa-solid fa-address-book"></i> Bog'lanish uchun</h3>
+                    <ul style="color: white; list-style: none;">
+                         <li><h4><a href="https://t.me/m_dehkanaliev" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a></h4></li>
+                         <li><p><i class="fa-solid fa-envelope"></i> askharov2002@gmail.com</p></li>
+                         <li><p class="call"><i class="fa-solid fa-phone fa-shake"></i> +998 94 981 2939 </p></li>
+                         <li><p><i class="fa-solid fa-location-dot"></i> S.Rahimov ko`cha 71, Isvahon, To'raqo'rg'on tumani, Namangan viloyati</p></li>
+                    </ul>
+               </div>
+
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+
+                <h1 id="ru">Жасурбек Аскаров </h1>
+                <h3><i class="fa-solid fa-circle-user"></i> О Себе</h3>
+                <p style="margin-bottom: 40px;">Привет! Я работаю графическим дизайнером и дизайнером тканей.Я родился в 
+                    29 сентября 2004 года, Туракурганский район, Наманганская область.
+                    За последние 2 года я глубоко погрузился в мир графического дизайна и текстильного дизайна.
+                    Я также увлекаюсь несколькими областями программирования, постоянно изучаю новые технологии и проекты с креативностью и
+                    Я узнаю что-то новое, чтобы оставаться в курсе событий..</p>
+                <a href="static/images/_OceanofPDF.com_Bright_-_Pimwana_Duanwad.pdf" download class="btn-download" blank="true">
+                     <i class="fa-solid fa-file-pdf"></i> Скачать
+                </a>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                <h3><i class="fa-solid fa-briefcase"></i> Опыт работы</h3>
+                <span>Феварль 2023 - Продолжается</span>
+                <p>NT Holding Home Textile, Namangan | <strong>Графический дизайнер и дизайнер тканей</strong></p>
+                <ul style="color: white;">
+                     <li><p>Высококачественные текстильные узоры и рисунки</p></li>
+                     <li><p>Создание реалистичной и современной графики с помощью Photoshop и Corel Draw</p></li>
+                </ul>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                <h3><i class="fa-solid fa-graduation-cap"></i> Ta'limi</h3>
+                <span>2023 - 2025</span>
+                <p>Международный Университет Туран</p>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12 hs-skills">	
+                <h3><i class="fa-solid fa-hourglass-start"></i> Навыки</h3>
+                <h4 style="font-weight: bold; font-size: 20px; letter-spacing: 0;">Личные навыки</h4>
+                <ul>
+                     <li>Маркетинговые возможности</li>
+                     <li>Общения</li>
+                     <li>Командная работа</li>
+                </ul>
+                <h4 style="font-weight: bold; font-size: 20px; letter-spacing: 0;">Технические навыки</h4>
+                <ul>
+                     <li><strong>Graphic Design:</strong> Adobe Photoshop (Mockups, Arts), CorelDRAW</li>
+                     <li><strong>Fabric Design:</strong> Patterns, Textures, Textile Prints</li>
+                     <li><strong>Python Development:</strong> Web (Django), Telegram Bot</li>
+                     <li><strong>Web Development:</strong> HTML, CSS</li>
+                </ul>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                <h3><i class="fa-brands fa-slack"></i> Инструменты и технологии <sup><span>Использующии</span></sup></h3>
+                <h4 class="title">
+                     <svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="white" /></svg>
+                     Проектирование программного обеспечения</h4>
+                <div class="skill-box">
+                     <div class="skill">
+                          <img src="static/images/photoshop.png" alt="">
+                          <p>Photoshop</p>
+                     </div>
+                     <div class="skill">
+                          <img src="static/images/corel-draw.png" alt="">
+                          <p>Corel Draw</p>
+                     </div>
+                </div>
+                <div class="mygap"></div>
+                <h4 class="title"><svg width="12" height="12"><circle cx="6" cy="6" r="5" fill="white" /></svg>
+                     Программирование</h4>
+                <div class="skill-box">
+                     <div class="skill">
+                          <img src="static/images/python.png" alt="">
+                          <p>Python</p>
+                     </div>
+                     <div class="skill">
+                          <img src="static/images/html.png" alt="">
+                          <p>HTML</p>
+                     </div>
+                     <div class="skill">
+                          <img src="static/images/css.png" alt="">
+                          <p>CSS</p>
+                     </div>
+                </div>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                <h3><i class="fa-solid fa-earth-asia"></i> Языки</h3>
+                <ul style="color: white;list-style: none;" class="language-list">
+                     <li><p><i class="fa-solid fa-flag"></i> <strong>Узбекская</strong> - Родной Язык</p></li>
+                     <li><p><i class="fa-solid fa-language"></i> <strong>Русский язык</strong> - Свободно </em></p></li>
+                     <li><p><i class="fa-solid fa-language"></i> <strong>Английский Язык</strong> - (A1+) | <em>Продолжаюсь учить...</em></p></li>
+                </ul>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                <h3><i class="fa-regular fa-lightbulb"></i> Хобби</h3>
+                <p><strong>Я проявляю большой интерес к научным открытиям и технологиям и с удовольствием изучаю их в свободное время..</strong></p>
+                <ul style="color: white;">
+                     <li><p>Чтение научных книг (биология, физика, химия)</p></li>
+                     <li><p>Просмотр научных и научно-фантастических фильмов</p></li>
+                     <li><p>Последующие информационные новости (революция ИИ, программирование, технологии, ...)</p></li>
+                     <li><p>Исследование космоса и астрономия</p></li>
+                </ul>
+           </div>
+           <div class="col-md-offset-1 col-md-10 col-sm-12">	
+                <h3><i class="fa-solid fa-address-book"></i> Для подключения</h3>
+                <ul style="color: white; list-style: none;">
+                     <li><h4><a href="https://t.me/hhxh29" target="_blank"><i class="fa-brands fa-telegram"></i> Телеграм</a></h4></li>
+                     <li><p><i class="fa-solid fa-envelope"></i> askharov2002@gmail.com</p></li>
+                     <li><p class="call"><i class="fa-solid fa-phone fa-shake"></i> +998 94 981 2939 </p></li>
+                     <li><p><i class="fa-solid fa-location-dot"></i> Улица С. Рахимова 71, Исвахон, Туракурганский район, Наманганская область</p></li>
+                </ul>
+           </div>
+          </div>
+     </div>
+</section>
+
+<footer>
+    <div class="container">
+         <div class="row">
+              <h1>Asqarov Jasurbek</h1>
+              <h3><i class="fa-solid fa-palette"></i> Graphic and Fabric Designer | <i class="fa-solid fa-globe"></i> Web Developer</h3>
+              <p class="email"><i class="fa-solid fa-envelope"></i>  askharov2002@gmail.com</p>
+              <div class="link-box">
+                   <a href="https://t.me/hhxh29" target="_blank">TELEGRAM</a><span>|</span>
+                   <a href="#">LINKEDIN</a><span>|</span>
+                   <a href="https://www.upwork.com/freelancers/~01beee891a0bf1c083" target="_blank">UPWORK</a><span>|</span>
+                   <a href="https://instagram.com/askharovv.23" target="_blank">INSTAGRAM</a>
+              </div>
+              <p class="copyright"><i class="fa-regular fa-copyright"></i> Created by <i class="fa-solid fa-heart-pulse fa-beat-fade"></i> Asqarov Jasurbek</p>      
+         </div>
+    </div>
+</footer>
+
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/particles.min.js"></script>
+    <script src="static/js/app.js"></script>
+    <script src="static/js/jquery.parallax.js"></script>
+    <script src="static/js/custom.js"></script>
+    <script src="static/js/random_bg.js"></script>
+    <script src="static/js/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/magnific-popup-options.js"></script>
+    <script src="static/js/smoothscroll.js"></script>
+
+</body>
+</html>

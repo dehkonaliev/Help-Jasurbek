@@ -1,0 +1,18 @@
+let mainProfile = document.getElementById("mainProfile");
+        let popup = document.getElementById("popup");
+
+        // Open popup when clicking the main image
+        mainProfile.onclick = function () {
+            popup.style.display = "flex";
+        };
+
+        // Change profile image and close popup
+        function setProfile(imageSrc) {
+            mainProfile.src = imageSrc;
+            closePopup();
+        }
+
+        // Close popup
+        function closePopup() {
+            popup.style.display = "none";
+        }
